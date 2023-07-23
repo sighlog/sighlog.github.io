@@ -1,0 +1,24 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: About
+    entries:
+      - title: Backend engineer
+      - title: Done is better than perfect.
+      - title: 날 것의 생각 그대로
+
+  - title: all posts
+    post_list:
+      limit: 3
+      show_more: true
+      show_more_text: more..
+      show_more_url: archive.html
+
+  - title: [daily]
+    post_list:
+      category: daily
+      limit: 3
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: archive.html
